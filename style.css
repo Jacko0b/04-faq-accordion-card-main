@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+/*  Colors */
+    /* Primary */
+        /* Text */
+        --primary-text-dark:  hsl(238, 29%, 16%);
+        --primary-text-red:  hsl(14, 88%, 65%);
+        /* Background  */
+        --primary-background-violet: hsl(273, 75%, 66%);
+        --primary-background-softBlue: hsl(240, 73%, 65%);
+
+    /* Secondary */
+        /* Text */
+        --secondary-text-veryDarkGrayishBlue: hsl(237, 12%, 33%);
+        --secondary-text-darkGrayishBlue: hsl(240, 6%, 50%);
+         /* Dividers */
+        --secondary-dividers-lightGrayishBlue: hsl(240, 5%, 91%);
+}
+.hidden{
+display: none;
+}
+
+body{
+    background-image: linear-gradient(
+        0deg,
+        var(--primary-background-softBlue),
+        var(--primary-background-violet));
+    height: 100vh;
+    
+    
+}
+main{
+    background: white;
+    margin: 100px auto 0 auto;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.banner .woman-mobile{
+    width: 70%;
+    position: relative;
+    top: -100px;
+}
+.banner .woman-mobile-shadow{
+    position: absolute;
+    width: 70%;
+}
+.accordion *{
+    padding: 20px;
+}
+.accordion{
+    display: flex;
+    position: relative;
+    top: -50px;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.accordion h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.accordion .accordion-section{
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+.accordion .separator{
+    padding: 0;
+    margin: 0 20px;
+    height: 1px;
+    background-color: var(--secondary-dividers-lightGrayishBlue);
+}
