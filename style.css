@@ -93,7 +93,7 @@ h1{
     font-size: 0.85rem;
     
 }
-.question:hover,
+/* .question:hover, */
 .question-active{
     font-weight: 700;
 }
