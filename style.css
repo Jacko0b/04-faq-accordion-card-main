@@ -33,7 +33,12 @@ body{
         0deg,
         var(--primary-background-softBlue),
         var(--primary-background-violet));
-    
+    height: 100vh;
+    width: 100%vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    margin-top: 150px;
     
 }
 main{
@@ -66,8 +71,6 @@ main{
     position: relative;
     top: -50px;
     flex-direction: column;
-    margin-bottom: 50px;
-    
 }
 h1{
     text-align: center;
